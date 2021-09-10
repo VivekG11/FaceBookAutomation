@@ -30,8 +30,8 @@ namespace FacebookAutomation.Registration
             IWebElement pwd = driver.FindElement(By.Name("reg_passwd__"));
             pwd.SendKeys("Vivek@73388");
 
-            IWebElement element = driver.FindElement(By.Name("firstname"));
-            var selectDate = new Se
+           /* IWebElement element = driver.FindElement(By.Name("firstname"));
+            var selectDate = new Se*/
 
 
 

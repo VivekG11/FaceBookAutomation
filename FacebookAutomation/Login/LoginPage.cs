@@ -1,22 +1,32 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using SeleniumExtras.PageObjects;
+
 
 namespace FacebookAutomation.Login
 {
     public class LoginPage
     {
-
-        public static void FaceBookLogin(IWebDriver driver)
+        
+        public LoginPage(IWebDriver driver)
         {
-            IWebElement email = driver.FindElement(By.Name("email"));
-            email.SendKeys("7338846979");
-
-            IWebElement password = driver.FindElement(By.Name("pass"));
-            password.SendKeys("Vivek.13");
-
-            IWebElement loginButton = driver.FindElement(By.Name("login"));
-            loginButton.Click();
+            PageFactory.InitElements(driver, this);
         }
+
+        [FindsBy(How = How.Name, Using = "email")]
+        [CacheLookup]
+        public IWebElement email;
+
+        [FindsBy(How = How.Name, Using = "pass")]
+        [CacheLookup]
+        public IWebElement password;
+
+        [FindsBy(How = How.Name, Using = "login")]
+        [CacheLookup]
+        public IWebElement loginButton;
+
+       
+       
     }
 }
