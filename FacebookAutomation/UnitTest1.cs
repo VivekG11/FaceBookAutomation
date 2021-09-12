@@ -26,7 +26,7 @@ namespace FacebookAutomation
         {
           
 
-           Registration.SignUp.CreateNewAccount(driver);
+           Registration.SignUp.UserRegistration(driver);
         }
 
 
