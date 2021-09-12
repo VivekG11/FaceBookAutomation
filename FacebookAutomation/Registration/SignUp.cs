@@ -12,7 +12,7 @@ namespace FacebookAutomation.Registration
     public class SignUp
     {
 
-        public static void CreateNewAccount(IWebDriver driver)
+        public static void UserRegistration(IWebDriver driver)
         {
             IWebElement CreateButton = driver.FindElement(By.XPath("//*[text()='Create New Account']"));
             CreateButton.Click();
