@@ -18,11 +18,11 @@ namespace FacebookAutomation.BaseClass
             driver.Manage().Window.Maximize();
             driver.Url= "https://www.facebook.com/";
         }
-        [TearDown]
+      /*  [TearDown]
         public void  teardown()
         {
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(2000);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(1000);
             driver.Quit();
-        }
+        }*/
     }
 }

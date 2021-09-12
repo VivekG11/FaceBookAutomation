@@ -21,11 +21,13 @@ namespace FacebookAutomation
            
         }
 
-       /* [Test]
+        [Test]
         public void NewRegistration()
         {
-            SignUp.NewUserRegistration(driver);
-        }*/
+          
+
+           Registration.SignUp.CreateNewAccount(driver);
+        }
 
 
     }

@@ -27,6 +27,5 @@ namespace FacebookAutomation.Login
         public IWebElement loginButton;
 
        
-       
     }
 }
