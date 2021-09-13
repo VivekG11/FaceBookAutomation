@@ -32,8 +32,8 @@ namespace FacebookAutomation.Registration
 
 
 
-            IWebElement reg_email__ = driver.FindElement(By.Name("reg_email__"));
-            reg_email__.SendKeys("vivekvk2903@gmail.com");
+            IWebElement email = driver.FindElement(By.Name("reg_email__"));
+            email.SendKeys("vivekvk2903@gmail.com");
             System.Threading.Thread.Sleep(1000);
 
 
@@ -43,26 +43,26 @@ namespace FacebookAutomation.Registration
             System.Threading.Thread.Sleep(1000);
 
 
-
-            driver.FindElement(By.Name("reg_passwd__")).SendKeys("Vivek@13");
+            IWebElement password = driver.FindElement(By.Name("reg_passwd__"));
+            password.SendKeys("Vivek@13");
             System.Threading.Thread.Sleep(1000);
 
 
 
-            SelectElement element = new SelectElement(driver.FindElement(By.Name("birthday_day")));
-            element.SelectByText("11");
+            SelectElement date = new SelectElement(driver.FindElement(By.Name("birthday_day")));
+            date.SelectByIndex(28);
             System.Threading.Thread.Sleep(1000);
 
 
 
-            SelectElement element1 = new SelectElement(driver.FindElement(By.Id("month")));
-            element1.SelectByValue("6");
+            SelectElement month = new SelectElement(driver.FindElement(By.Id("month")));
+            month.SelectByIndex(2);
             System.Threading.Thread.Sleep(1000);
 
 
 
-            SelectElement element2 = new SelectElement(driver.FindElement(By.Id("year")));
-            element2.SelectByValue("1999");
+            SelectElement year = new SelectElement(driver.FindElement(By.Id("year")));
+            year.SelectByValue("2000");
             System.Threading.Thread.Sleep(1000);
 
 
