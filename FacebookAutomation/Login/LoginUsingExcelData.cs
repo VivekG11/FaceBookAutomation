@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using FacebookAutomation.DataDrivenTesting;
+using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using SeleniumExtras.PageObjects;
@@ -6,10 +7,10 @@ using SeleniumExtras.PageObjects;
 
 namespace FacebookAutomation.Login
 {
-    public class LoginPage
+    public  class LoginUsingExcelData
     {
-        
-        public LoginPage(IWebDriver driver)
+
+        public LoginUsingExcelData(IWebDriver driver)
         {
             PageFactory.InitElements(driver, this);
         }
@@ -22,13 +23,18 @@ namespace FacebookAutomation.Login
         [CacheLookup]
         public IWebElement password;
 
-        [FindsBy(How = How.ClassName, Using = "_9lsa")]
-        public IWebElement confirm;
-
         [FindsBy(How = How.Name, Using = "login")]
         [CacheLookup]
         public IWebElement loginButton;
 
-       
+        public void LoginToFacebook(string testName)
+        {
+            var userData = ExcelDataAccess.GetTestData(testName);
+            email.SendKeys(userData.username);
+            password.SendKeys(userData.password);
+            loginButton.Submit();
+        }
+
     }
 }
+

@@ -20,6 +20,8 @@ namespace FacebookAutomation.Functions
         }
         public static void LoginToFacebook(IWebDriver driver)
         {
+          
+
             LoginPage login = new LoginPage(driver);
 
             login.email.SendKeys("7338846979");
@@ -27,8 +29,31 @@ namespace FacebookAutomation.Functions
 
             login.password.SendKeys("Vivek.13");
 
+            login.confirm.Click();
+            System.Threading.Thread.Sleep(6000);
+
+            login.confirm.Click();
+            System.Threading.Thread.Sleep(6000);
+
             login.loginButton.Click();
-            System.Threading.Thread.Sleep(9000);
+            System.Threading.Thread.Sleep(2000);
+
+           /* profile.default_content_setting_values.notifications = 2
+
+            ChromeOptions options = new ChromeOptions();
+            options.AddArguments("--disable-notifications"); // to disable notification
+            driver = new ChromeDriver(options);*/
+        }
+
+
+        public static void LoginUsingDataDrivenMethod(IWebDriver driver)
+        {
+
+            
+
+            LoginUsingExcelData login1 = new LoginUsingExcelData(driver);
+            login1.LoginToFacebook("login");
+
         }
     }
 }

@@ -18,6 +18,8 @@ namespace FacebookAutomation
            Functions.Action.AssertTitleAfterSearchingApplication(driver);
 
             Functions.Action.LoginToFacebook(driver);
+
+           // Functions.Action.LoginUsingDataDrivenMethod(driver);
            
         }
 

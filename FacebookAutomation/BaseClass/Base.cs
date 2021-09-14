@@ -14,7 +14,9 @@ namespace FacebookAutomation.BaseClass
         [SetUp]
         public void Setup()
         {
-            driver = new ChromeDriver();
+            ChromeOptions options = new ChromeOptions();
+            options.AddArgument("--disable-notifications");
+            driver = new ChromeDriver(options);
             driver.Manage().Window.Maximize();
             driver.Url= "https://www.facebook.com/";
         }
