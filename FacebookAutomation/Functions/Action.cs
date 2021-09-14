@@ -38,22 +38,10 @@ namespace FacebookAutomation.Functions
             login.loginButton.Click();
             System.Threading.Thread.Sleep(2000);
 
-           /* profile.default_content_setting_values.notifications = 2
-
-            ChromeOptions options = new ChromeOptions();
-            options.AddArguments("--disable-notifications"); // to disable notification
-            driver = new ChromeDriver(options);*/
+          
         }
 
 
-        public static void LoginUsingDataDrivenMethod(IWebDriver driver)
-        {
-
-            
-
-            LoginUsingExcelData login1 = new LoginUsingExcelData(driver);
-            login1.LoginToFacebook("login");
-
-        }
+      
     }
 }
