@@ -19,16 +19,15 @@ namespace FacebookAutomation
 
             Functions.Action.LoginToFacebook(driver);
 
-           // Functions.Action.LoginUsingDataDrivenMethod(driver);
+          
            
         }
 
         [Test]
         public void NewRegistration()
         {
-          
 
-           Registration.SignUp.UserRegistration(driver);
+            Registration.SignUp.NewUserRegistration(driver);
         }
 
 
