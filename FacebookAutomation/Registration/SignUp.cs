@@ -45,7 +45,7 @@ namespace FacebookAutomation.Registration
             element2.SelectByValue("2000");
             System.Threading.Thread.Sleep(1000);
 
-            driver.FindElement(By.Name("sex")).Click();
+            driver.FindElement(By.ClassName("_58mt")).Click();
             System.Threading.Thread.Sleep(1000);
 
             driver.FindElement(By.Name("websubmit")).Click();
