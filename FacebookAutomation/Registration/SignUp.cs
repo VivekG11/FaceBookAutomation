@@ -9,7 +9,59 @@ namespace FacebookAutomation.Registration
 {
     public class SignUp
     {
-      
+
+        public SignUp(IWebDriver driver)
+        {
+            PageFactory.InitElements(driver, this);
+        }
+
+
+        [FindsBy(How = How.XPath, Using = "/*[text()='Create New Account']")]
+        [CacheLookup]
+        public IWebElement CreateButon;
+
+        [FindsBy(How = How.Name, Using = "firstname")]
+        [CacheLookup]
+        public IWebElement firstname;
+
+        [FindsBy(How = How.Name, Using = "lastname")]
+        [CacheLookup]
+        public IWebElement lastname;
+
+        [FindsBy(How = How.Name, Using = "reg_email__")]
+        [CacheLookup]
+        public IWebElement email;
+
+        [FindsBy(How = How.Name, Using = "reg_email_confirmation__")]
+        [CacheLookup]
+        public IWebElement confirmEmail;
+
+        [FindsBy(How = How.Name, Using = "reg_passwd__")]
+        [CacheLookup]
+        public IWebElement pwd;
+
+
+        [FindsBy(How = How.Name, Using = "birthday_day")]
+        [CacheLookup]
+        public IWebElement date;
+
+        [FindsBy(How = How.Name, Using = "month")]
+        [CacheLookup]
+        public IWebElement month;
+
+        [FindsBy(How = How.Name, Using = "month")]
+        [CacheLookup]
+        public IWebElement year;
+
+        [FindsBy(How = How.ClassName, Using = "_58mt")]
+        [CacheLookup]
+        public IWebElement gender;
+
+        [FindsBy(How = How.Name, Using = "websubmit")]
+        [CacheLookup]
+        public IWebElement button;
+
+
 
         public static void NewUserRegistration(IWebDriver driver)
         {
