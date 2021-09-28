@@ -29,9 +29,9 @@ namespace FacebookAutomation.Functions
             LoginPage login = new LoginPage(driver);
 
             login.email.SendKeys("7338846979");
-            Thread.Sleep(9000);
+            Thread.Sleep(5000);
 
-            login.password.SendKeys("Vivek.13");
+            login.password.SendKeys("Vivek@3384");
 
             login.confirm.Click();
             Thread.Sleep(3000);
@@ -43,13 +43,13 @@ namespace FacebookAutomation.Functions
             Thread.Sleep(2000);
 
             login.homeIcon.Click();
-            Thread.Sleep(4000);
+            Thread.Sleep(3000);
 
             login.createPost.Click();
-            Thread.Sleep(4000);
+            Thread.Sleep(3000);
 
             login.uploadPhoto.Click();
-            Thread.Sleep(4000);
+            Thread.Sleep(3000);
 
             login.addPhoto.Click();
             Thread.Sleep(3000);
@@ -61,6 +61,8 @@ namespace FacebookAutomation.Functions
             Thread.Sleep(2000);
 
             autoIt.Send("{Enter}");
+
+            login.post.Click();
         }
 
         public static void NewRegistration(IWebDriver driver)
@@ -78,6 +80,8 @@ namespace FacebookAutomation.Functions
             sign.confirmEmail.SendKeys("vivekvk2903@gmail.com");
 
             sign.pwd.SendKeys("Vivek@3434");
+
+            sign.date.S
 
             
         }

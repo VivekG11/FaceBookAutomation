@@ -46,6 +46,8 @@ namespace FacebookAutomation.Login
         [CacheLookup]
         public IWebElement addPhoto;
 
-
+        [FindsBy(How = How.XPath, Using = "//*[@class='s45kfl79 emlxlaya bkmhp75w spb7xbtv bp9cbjyn rt8b4zig n8ej3o3l agehan2d sk4xxmp2 rq0escxv pq6dq46d taijpn5t l9j0dhe7 tdjehn4e qypqp5cg q676j6op']")]
+        [CacheLookup]
+        public IWebElement post;
     }
 }
