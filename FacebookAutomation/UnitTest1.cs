@@ -8,20 +8,22 @@ namespace FacebookAutomation
     {
 
         [Test]
-        public void LoginusingCredentials()
-        {
-           Functions.Action.AssertTitleAfterSearchingApplication(driver);
-           Functions.Action.LoginToFacebook(driver);
-
-        }
-
-        [Test]
         public void NewRegistration()
         {
-
             SignUp.NewUserRegistration(driver);
         }
 
+        [Test]
+        public void LoginusingCredentials()
+        {
+           Functions.Action.AssertTitle(driver);
+           Functions.Action.LoginToFacebook(driver);
+        }
 
+        [Test]
+        public void FileUpload()
+        {
+            Functions.UploadPhoto.PostPhoto(driver);
+        }
     }
 }

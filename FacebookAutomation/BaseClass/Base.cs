@@ -14,18 +14,18 @@ namespace FacebookAutomation.BaseClass
         [SetUp]
         public void Setup()
         {
-            //Using ChromeOptions to customie driver sessions
+            //Using ChromeOptions to customize driver sessions
             ChromeOptions options = new ChromeOptions();
             options.AddArgument("--disable-notifications");
             driver = new ChromeDriver(options);
             driver.Manage().Window.Maximize();
             driver.Url= "https://www.facebook.com/";
         }
-        [TearDown]
-        public void  teardown()
-        {
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(1000);
-            driver.Quit();
-        }
+        //[TearDown]
+        //public void  teardown()
+        //{
+        //    driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(1000);
+        //    driver.Quit();
+        //}
     }
 }
