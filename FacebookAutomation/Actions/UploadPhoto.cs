@@ -22,10 +22,10 @@ namespace FacebookAutomation.Functions
             //creating an object of LoginPage class
             upload post = new upload(driver);
 
-            post.email.SendKeys("ucs17139@rmd.ac.in");
+            post.email.SendKeys("7338846979");
             Thread.Sleep(5000);
 
-            post.password.SendKeys("123456789ABCD");
+            post.password.SendKeys("Vivek@TVS");
 
             post.confirm.Click();
             Thread.Sleep(3000);
@@ -37,7 +37,7 @@ namespace FacebookAutomation.Functions
             Thread.Sleep(3000);
 
             post.homeIcon.Click();
-            Thread.Sleep(3000);
+            Thread.Sleep(4000);
 
             post.createPost.Click();
             Thread.Sleep(3000);

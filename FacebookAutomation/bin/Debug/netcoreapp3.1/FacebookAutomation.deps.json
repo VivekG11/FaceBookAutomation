@@ -23,6 +23,7 @@
           "System.Configuration.ConfigurationManager": "5.0.0",
           "System.Data.OleDb": "5.0.0",
           "coverlet.collector": "3.0.2",
+          "log4net": "2.0.12",
           "Interop.AutoItX3Lib": "1.0.0.0"
         },
         "runtime": {
@@ -85,6 +86,17 @@
           "lib/netstandard2.0/ExcelDataReader.DataSet.dll": {
             "assemblyVersion": "3.6.0.0",
             "fileVersion": "3.6.0.0"
+          }
+        }
+      },
+      "log4net/2.0.12": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/log4net.dll": {
+            "assemblyVersion": "2.0.12.0",
+            "fileVersion": "2.0.12.0"
           }
         }
       },
@@ -1186,6 +1198,13 @@
       "sha512": "sha512-miW3sWmPXnLM38YadRIfnhL4W4QZajpS6Q/OqsOpFJU5ct8h+M/fMpbGMm5INtsMP0Y1k0WK0stIfSW3RP31Xg==",
       "path": "exceldatareader.dataset/3.6.0",
       "hashPath": "exceldatareader.dataset.3.6.0.nupkg.sha512"
+    },
+    "log4net/2.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9P67BCftJ7KG+B7rNOM1A9KczUwyEDed6zbAddy5Cj/73xVkzi+rEAHeOgUnW5wDqy1JFlY8+oTP0m1PgJ03Tg==",
+      "path": "log4net/2.0.12",
+      "hashPath": "log4net.2.0.12.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/16.9.4": {
       "type": "package",

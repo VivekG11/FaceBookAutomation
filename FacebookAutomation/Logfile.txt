@@ -1,0 +1,9 @@
+2021-10-01 20:49:15,629 INFO Initializing SetUp
+2021-10-01 20:49:15,648 INFO Disabling notifications
+2021-10-01 20:49:18,131 INFO navigating control to chrome browser
+2021-10-01 20:49:47,240 ERROR unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=94.0.4606.61)
+2021-10-01 20:50:14,774 INFO Initializing SetUp
+2021-10-01 20:50:14,789 INFO Disabling notifications
+2021-10-01 20:50:17,093 INFO navigating control to chrome browser
+2021-10-01 20:50:19,546 DEBUG Navigating to corresponding URL
