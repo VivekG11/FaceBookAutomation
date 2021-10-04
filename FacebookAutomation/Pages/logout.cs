@@ -19,8 +19,8 @@ namespace FacebookAutomation.Logout
         [CacheLookup]
         public IWebElement password;
 
-        //[FindsBy(How = How.ClassName, Using = "_9lsa")]
-        //public IWebElement confirm;
+        [FindsBy(How = How.ClassName, Using = "_9lsa")]
+        public IWebElement confirm;
 
         [FindsBy(How = How.Name, Using = "login")]
         [CacheLookup]

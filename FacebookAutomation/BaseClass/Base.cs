@@ -47,6 +47,14 @@ namespace FacebookAutomation.BaseClass
                 Logfile.Error(e.Message);
             }
         }
+
+        public static void Screenshot()
+        {
+            ITakesScreenshot ss = driver as ITakesScreenshot;
+            Screenshot screenshot = ss.GetScreenshot();
+            screenshot.SaveAsFile(@"C:\Users\vivek.g\source\repos\FacebookAutomation\FacebookAutomation\Screenshots\img1.jpg");
+        }
+
         //[TearDown]
         //public void  teardown()
         //{

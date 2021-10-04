@@ -7,3 +7,101 @@
 2021-10-01 20:50:14,789 INFO Disabling notifications
 2021-10-01 20:50:17,093 INFO navigating control to chrome browser
 2021-10-01 20:50:19,546 DEBUG Navigating to corresponding URL
+2021-10-02 00:03:08,191 INFO Initializing SetUp
+2021-10-02 00:03:08,207 INFO Disabling notifications
+2021-10-02 00:03:10,533 INFO navigating control to chrome browser
+2021-10-02 00:03:14,093 DEBUG Navigating to corresponding URL
+2021-10-02 14:30:21,635 INFO Initializing SetUp
+2021-10-02 14:30:21,651 INFO Disabling notifications
+2021-10-02 14:30:24,283 INFO navigating control to chrome browser
+2021-10-02 14:30:26,575 DEBUG Navigating to corresponding URL
+2021-10-03 19:41:22,201 INFO Initializing SetUp
+2021-10-03 19:41:22,212 INFO Disabling notifications
+2021-10-03 19:41:27,263 INFO navigating control to chrome browser
+2021-10-03 19:41:29,536 DEBUG Navigating to corresponding URL
+2021-10-03 20:14:00,184 INFO Initializing SetUp
+2021-10-03 20:14:00,198 INFO Disabling notifications
+2021-10-03 20:14:02,611 INFO navigating control to chrome browser
+2021-10-03 20:14:06,086 DEBUG Navigating to corresponding URL
+2021-10-04 00:41:26,977 INFO Initializing SetUp
+2021-10-04 00:41:26,992 INFO Disabling notifications
+2021-10-04 00:41:29,670 INFO navigating control to chrome browser
+2021-10-04 00:41:31,773 DEBUG Navigating to corresponding URL
+2021-10-04 00:43:14,236 INFO Initializing SetUp
+2021-10-04 00:43:14,249 INFO Disabling notifications
+2021-10-04 00:43:16,430 INFO navigating control to chrome browser
+2021-10-04 00:43:18,516 DEBUG Navigating to corresponding URL
+2021-10-04 01:00:38,309 INFO Initializing SetUp
+2021-10-04 01:00:38,322 INFO Disabling notifications
+2021-10-04 01:00:40,655 INFO navigating control to chrome browser
+2021-10-04 01:00:42,756 DEBUG Navigating to corresponding URL
+2021-10-04 01:06:13,923 INFO Initializing SetUp
+2021-10-04 01:06:13,936 INFO Disabling notifications
+2021-10-04 01:06:16,127 INFO navigating control to chrome browser
+2021-10-04 01:06:18,379 DEBUG Navigating to corresponding URL
+2021-10-04 01:12:56,705 INFO Initializing SetUp
+2021-10-04 01:12:56,718 INFO Disabling notifications
+2021-10-04 01:12:58,792 INFO navigating control to chrome browser
+2021-10-04 01:13:01,269 DEBUG Navigating to corresponding URL
+2021-10-04 01:14:36,121 INFO Initializing SetUp
+2021-10-04 01:14:36,132 INFO Disabling notifications
+2021-10-04 01:14:38,413 INFO navigating control to chrome browser
+2021-10-04 01:14:40,313 DEBUG Navigating to corresponding URL
+2021-10-04 01:18:31,118 INFO Initializing SetUp
+2021-10-04 01:18:31,131 INFO Disabling notifications
+2021-10-04 01:18:33,367 INFO navigating control to chrome browser
+2021-10-04 01:18:36,038 DEBUG Navigating to corresponding URL
+2021-10-04 01:19:39,780 INFO Initializing SetUp
+2021-10-04 01:19:39,791 INFO Disabling notifications
+2021-10-04 01:19:41,930 INFO navigating control to chrome browser
+2021-10-04 01:19:44,233 DEBUG Navigating to corresponding URL
+2021-10-04 01:22:22,924 INFO Initializing SetUp
+2021-10-04 01:22:22,936 INFO Disabling notifications
+2021-10-04 01:22:25,017 INFO navigating control to chrome browser
+2021-10-04 01:22:26,805 DEBUG Navigating to corresponding URL
+2021-10-04 12:30:59,443 INFO Initializing SetUp
+2021-10-04 12:30:59,455 INFO Disabling notifications
+2021-10-04 12:31:03,452 INFO navigating control to chrome browser
+2021-10-04 12:31:06,004 DEBUG Navigating to corresponding URL
+2021-10-04 12:31:06,122 INFO Facebook Login in Page
+2021-10-04 12:31:12,094 INFO Verifying the password
+2021-10-04 12:31:15,210 DEBUG Login Succesfull and control navigating to HomePage
+2021-10-04 12:32:03,168 INFO Initializing SetUp
+2021-10-04 12:32:03,180 INFO Disabling notifications
+2021-10-04 12:32:05,208 INFO navigating control to chrome browser
+2021-10-04 12:32:09,029 DEBUG Navigating to corresponding URL
+2021-10-04 12:32:09,073 INFO Facebook Login in Page
+2021-10-04 12:32:14,593 INFO Verifying the password
+2021-10-04 12:32:17,732 DEBUG Login Succesfull and control navigating to HomePage
+2021-10-04 12:34:45,816 INFO Initializing SetUp
+2021-10-04 12:34:45,827 INFO Disabling notifications
+2021-10-04 12:34:47,889 INFO navigating control to chrome browser
+2021-10-04 12:34:50,625 DEBUG Navigating to corresponding URL
+2021-10-04 12:34:50,669 INFO Facebook Login in Page
+2021-10-04 12:34:56,147 INFO Verifying the password
+2021-10-04 12:34:59,291 DEBUG Login Succesfull and control navigating to HomePage
+2021-10-04 12:36:34,559 INFO Initializing SetUp
+2021-10-04 12:36:34,569 INFO Disabling notifications
+2021-10-04 12:36:36,531 INFO navigating control to chrome browser
+2021-10-04 12:36:38,431 DEBUG Navigating to corresponding URL
+2021-10-04 12:36:38,457 INFO Facebook Login in Page
+2021-10-04 12:36:43,947 INFO Verifying the password
+2021-10-04 12:36:47,086 DEBUG Login Succesfull and control navigating to HomePage
+2021-10-04 12:37:56,426 INFO Initializing SetUp
+2021-10-04 12:37:56,438 INFO Disabling notifications
+2021-10-04 12:37:58,414 INFO navigating control to chrome browser
+2021-10-04 12:38:00,439 DEBUG Navigating to corresponding URL
+2021-10-04 12:38:00,464 INFO Facebook Login in Page
+2021-10-04 12:38:05,942 INFO Verifying the password
+2021-10-04 12:38:09,066 DEBUG Login Succesfull and control navigating to HomePage
+2021-10-04 12:41:19,481 INFO Initializing SetUp
+2021-10-04 12:41:19,492 INFO Disabling notifications
+2021-10-04 12:41:21,462 INFO navigating control to chrome browser
+2021-10-04 12:41:23,899 DEBUG Navigating to corresponding URL
+2021-10-04 12:41:23,948 INFO Facebook Login in Page
+2021-10-04 12:41:29,447 INFO Verifying the password
+2021-10-04 12:41:32,604 DEBUG Login Succesfull and control navigating to HomePage
+2021-10-04 14:41:10,722 INFO Initializing SetUp
+2021-10-04 14:41:10,734 INFO Disabling notifications
+2021-10-04 14:41:13,062 INFO navigating control to chrome browser
+2021-10-04 14:41:15,673 DEBUG Navigating to corresponding URL

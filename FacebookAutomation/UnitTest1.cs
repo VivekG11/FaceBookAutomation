@@ -1,37 +1,73 @@
 using NUnit.Framework;
 using FacebookAutomation.Registration;
 using FacebookAutomation.CrossBrowsers;
+using AventStack.ExtentReports;
+using FacebookAutomation.Functions;
 
 
 namespace FacebookAutomation
 {
     public class Tests:BaseClass.Base
     {
+        ExtentReports reports = Report.report();
+        ExtentTest test;
 
         [Test]
         public void NewRegistration()
         {
+            test = reports.CreateTest("Tests");
+            test.Log(Status.Info, "Automating New user Registration in Facebook");
             SignUp.NewUserRegistration(driver);
+            test.Log(Status.Pass, "TestCase passes");
+            reports.Flush();
         }
 
         [Test]
         public void LoginusingCredentials()
         {
-          // Functions.Action.AssertTitle(driver);
-           Functions.Login.LoginToFacebook(driver);
+            test = reports.CreateTest("Tests");
+            test.Log(Status.Info, "Automating Facebook Login Page");
+            Functions.Login.LoginUsingExcelData(driver);
+            test.Info("Details", MediaEntityBuilder.CreateScreenCaptureFromPath(@"C:\Users\vivek.g\source\repos\FacebookAutomation\FacebookAutomation\Screenshots\img1.jpg").Build());
+
+            test.Log(Status.Pass, "TestCase passes");
+            reports.Flush();
         }
 
         [Test]
-        public void FacebookLogout()
+        public void Login()
         {
-            Functions.logoutActions.LogoutofFacebook(driver);
+            Functions.Login.LoginUsingExcelData(driver);
         }
 
         [Test]
         public void FileUpload()
         {
-            Functions.UploadPhoto.PostPhoto(driver);
+            Functions.Login.PostPhoto(driver);
         }
+
+        [Test]
+        public void Mail()
+        {
+            Functions.Login.MailReport(driver);
+        }
+
+        [Test]
+        public void SendMessage()
+        {
+            Functions.Login.Messaging(driver);
+        }
+        [Test]
+        public void FacebookLogout()
+        {
+            test = reports.CreateTest("Tests");
+            test.Log(Status.Info, "Automating Facebook Login Page");
+            Functions.Login.LogoutofFacebook(driver);
+            test.Log(Status.Pass, "TestCase passes");
+            reports.Flush();
+        }
+
+       
     }
 
     [TestFixture]
